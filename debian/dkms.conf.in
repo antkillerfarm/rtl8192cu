@@ -1,0 +1,7 @@
+BUILT_MODULE_NAME="8192cu"
+DEST_MODULE_LOCATION="/kernel/updates/dkms"
+PACKAGE_NAME=#SRCNAME#
+PACKAGE_VERSION=#SRCVERSION#
+AUTOINSTALL="yes"
+MAKE="cd ${dkms_tree}/#SRCNAME#/#SRCVERSION#/build; make all; cd .."
+CLEAN="cd ${dkms_tree}/#SRCNAME#/#SRCVERSION#/build; make clean; cd .."

@@ -1,0 +1,18 @@
+Source: rtl8192cu-dkms
+Section: unknown
+Priority: extra
+Maintainer: heisvoid <heisvoid@gmail.com>
+Build-Depends: cdbs, debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+
+Package: rtl8192cu-dkms
+Architecture: all
+Depends: dkms
+Description: source for the Realtek rtl8192cu driver.
+ This package provides the source code for the Realtek rtl8192cu kernel modules.
+ .
+ This package uses DKMS to build the driver from source. The kernel module
+ will be built for your current kernel and will be automatically re-built
+ itself when you update your kernel.
+ .
+

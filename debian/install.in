@@ -1,0 +1,3 @@
+#TARBASENAME#*/*	/usr/src/#SRCNAME#-#SRCVERSION#/
+debian/dkms.conf	/usr/src/#SRCNAME#-#SRCVERSION#/
+
